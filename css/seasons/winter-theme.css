@@ -47,57 +47,71 @@ div {
     margin: 25px;
 }
 /* People borders*/ 
-div.borderAlice{
-	
-	border-color:#E58B4C;
+div.Alice{
+	background-color: lightpink; 
+	border-color:#ffe6c9;
+	color: white;
 }
-div.borderAmina{
-	
+div.Amina{
+	background-color:#72d14f;
 	border-color:#fe6761;
+	color: antiquewhite;
 }
-div.borderChristine{
-	
+div.Christine{
+	background-color: hotpink;
 	border-color:white;
+	color: black;
 }
-div.borderGianna{
-	
+div.Gianna{
+	background-color: #4B0082;
 	border-color:darkgreen;
+	color: antiquewhite;
 }
-div.borderKienen{
-	
+div.Kienen{
+	background-color: #952143;
 	border-color:#D25A7E;
+	color: antiquewhite;
 }
-div.borderNick{
+div.Nick{
+	background-color: slategray;
 	border-color: ghostwhite;
+	color: white;
 }
-div.borderShiro{
-	
+div.Shiro{
+	background-color: #ff8c69;
 	border-color:#98ff98;
+	color: white;
 }
 /* comic borders*/ 
-div.borderDGLITW{
-	
+div.DGLITW{
+	background-color: #8B008B;
+	color: antiquewhite;
 	border-color:maroon;
 }
-div.borderZF{
-	
+div.ZF{
+	background-color: #8fb8de ;
+	color: antiquewhite;
 	border-color:#9a94bc;
 	
 }
-div.borderTDBU{
-	
+div.TDBU{
+	background-color: #89c7d4 ;
+	color: antiquewhite;
 	border-color:#F7FF74;
 }
-div.borderLE{
-	
+div.LE{
+	background-color: #89c7d4 ;
+	color: antiquewhite;
 	border-color:#F7FF74;
 }
-div.borderDTIS{
-	
+div.DTIS{
+	background-color: #89c7d4 ;
+	color:antiquewhite ;
 	border-color:#ff557f;
 }
-div.borderTAC{
-	
+div.TAC{
+	background-color: #89c7d4;
+	color:antiquewhite ;
 	border-color:#F7FF74;
 }
 div.discordAd{
