@@ -1,20 +1,19 @@
 // JavaScript Document
 //COMIC: LIFE'S EXPECTATIONS
-//BLANK: ../../A1/Site/LE-0X.html
 
 // Pages array (include links)
 var pageNumber=[];
-pageNumber[0]= "../../A1/Site/LE-01.html";
-/* pageNumber[1]= "../../A1/Site/LE-02.html";
-pageNumber[2]= "../../A1/Site/LE-03.html";
-pageNumber[3]= "../../A1/Site/LE-04.html";
-pageNumber[4]= "../../A1/Site/LE-05.html";
-pageNumber[5]= "../../A1/Site/LE-06.html";
-pageNumber[6]= "../../A1/Site/LE-07.html";
-pageNumber[7]= "../../A1/Site/LE-08.html";
-pageNumber[8]= "../../A1/Site/LE-09.html";
-pageNumber[9]= "../../A1/Site/LE-10.html";
-pageNumber[10]= "../../A1/Site/LE-11.html";
+pageNumber[0]= "1/site/01.html";
+/* pageNumber[1]= "1/site/02.html";
+pageNumber[2]= "1/site/03.html";
+pageNumber[3]= "1/site/04.html";
+pageNumber[4]= "1/site/05.html";
+pageNumber[5]= "1/site/06.html";
+pageNumber[6]= "1/site/07.html";
+pageNumber[7]= "1/site/08.html";
+pageNumber[8]= "1/site/09.html";
+pageNumber[9]= "1/site/10.html";
+pageNumber[10]= "1/site/11.html";
 */
 
 //actual code

@@ -1,21 +1,19 @@
 // JavaScript Document
 //COMIC: THE ADVENTURE CREW
-//BLANK: ../../A1/Site/TAC-0X.html
 
 // Pages array (include links)
 var pageNumber=[];
-pageNumber[0]= "../../A1/Site/TAC-01.html";
-pageNumber[1]= "../../A1/Site/TAC-02.html";
-pageNumber[2]= "../../A1/Site/TAC-03.html";
-/*
-pageNumber[3]= "../../A1/Site/TAC-04.html";
-pageNumber[4]= "../../A1/Site/TAC-05.html";
-pageNumber[5]= "../../A1/Site/TAC-06.html";
-pageNumber[6]= "../../A1/Site/TAC-07.html";
-pageNumber[7]= "../../A1/Site/TAC-08.html";
-pageNumber[8]= "../../A1/Site/TAC-09.html";
-pageNumber[9]= "../../A1/Site/TAC-10.html";
-pageNumber[10]= "../../A1/Site/TAC-11.html";
+pageNumber[0]= "1/site/01.html";
+/* pageNumber[1]= "1/site/02.html";
+pageNumber[2]= "1/site/03.html";
+pageNumber[3]= "1/site/04.html";
+pageNumber[4]= "1/site/05.html";
+pageNumber[5]= "1/site/06.html";
+pageNumber[6]= "1/site/07.html";
+pageNumber[7]= "1/site/08.html";
+pageNumber[8]= "1/site/09.html";
+pageNumber[9]= "1/site/10.html";
+pageNumber[10]= "1/site/11.html";
 */
 
 //actual code
