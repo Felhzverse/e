@@ -1,89 +1,163 @@
- /* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #37B77E;
-  font-family: Arial;
-  color: #F5F5DC; 
-  border-color: #DB4A23;
-  display:inline-block;
-  padding: none; 
-  width: 90%;
-  height:10%;
+/* hi */
+body{
+	color: #ffe6c9;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
+	background-color: #CBD76B;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-  border: none;
-  padding: 5px; 
-  outline: none; 
-  color: #F5F5DC;
-  align-content: right;
-  background-color: #37B77E;
-  text-align: center;
-  height:5%;
-  width: 10%; 
+@font-face {
+  font-family: Title, "Mona";
+  src: url("../Fonts/Mona-Lite/Mona-Free.woff");
 }
-/*dropdown link*/
-.dropdown a{
-  font-size: 5;
-  color: #F5F5DC;
-  text-align: center;
-  padding: 5px; 
-  text-decoration: none;
+a{
+    color: #ffe6c9;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
 }
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 5; 
-  border: none;
-  outline: none;
-  color: #F5F5DC;
-  padding: none; 
-  background-color: #37B77E;
-  font-family: Arial; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-  text-align: center;
+a:visited {
+    color: #ffe6c9;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
 }
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: gray;
-   color: saddlebrown;
+footer{
+	display: block;
+	background-color: #E76043;
+	color: #ffe6c9;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	size: 5; 
+	text-indent: 50px;
+	padding: 40px;
 }
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 300px; 
-  top: 560px; 
- border-color: #DB4A23;
-  border-width: 10px;
-  background-color: #37B77E;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+p {
+    text-indent: 50px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #ffe6c9;
+	text-align: center;
+	text-align: justify;
+	font-size: 5;
 }
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: center;
-  display: inline-block;
-  font-size: 5;
-  color: #F5F5DC;
-  text-align: center;
-  padding: 5px;
-  text-decoration: none;
+ul{
+	font-size: 6;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-   background-color: gray;
-   color: saddlebrown;
+div {
+	background-color: #EC9A72;
+    border: 25px solid #E76043;
+    padding: 25px;
+    margin: 25px;
 }
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: inline-block;
+/* People borders*/ 
+div.Alice{
+	background-color: lightpink; 
+	border-color:#ffe6c9;
+	color: white;
 }
+div.Amina{
+	background-color:#72d14f;
+	border-color:#fe6761;
+	color: antiquewhite;
+}
+div.Christine{
+	background-color: hotpink;
+	border-color:white;
+	color: black;
+}
+div.Gianna{
+	background-color: #4B0082;
+	border-color:darkgreen;
+	color: antiquewhite;
+}
+div.Kienen{
+	background-color: #952143;
+	border-color:#D25A7E;
+	color: antiquewhite;
+}
+div.Nick{
+	background-color: slategray;
+	border-color: ghostwhite;
+	color: white;
+}
+div.Shiro{
+	background-color: #ff8c69;
+	border-color:#98ff98;
+	color: white;
+}
+/* comic borders*/ 
+div.DGLITW{
+	background-color: #8B008B;
+	color: antiquewhite;
+	border-color:maroon;
+}
+div.ZF{
+	background-color: #8fb8de ;
+	color: antiquewhite;
+	border-color:#9a94bc;
+	
+}
+div.TDBU{
+	background-color: #89c7d4 ;
+	color: antiquewhite;
+	border-color:#F7FF74;
+}
+div.LE{
+	background-color: #89c7d4 ;
+	color: antiquewhite;
+	border-color:#F7FF74;
+}
+div.DTIS{
+	background-color: #89c7d4 ;
+	color:antiquewhite ;
+	border-color:#ff557f;
+}
+div.TAC{
+	background-color: #89c7d4;
+	color:antiquewhite ;
+	border-color:#F7FF74;
+}
+div.discordAd{
+	border: 10px solid white;
+	background-color:#7289DA;
+	padding: 10px;
+    margin: 10px;
+}
+img.icon{
+	height:150;
+	width:150;
+	border: 5px solid #ffe6c9;
+	border-radius: 5%;
+}
+img.ad{
+	height:640;
+	width:480;
+}
+img.social{
+	border: 5px solid #f5e5cf;
+	width: auto;
+	max-width:80%;
+	max-height:80%;
+	object-fit: cover;
+}
+img.trees{
+	border-radius: 50px; 
+}
+iframe.disc{
+	border: 20px solid #ffe6c9;
+	border-radius: 5%;
+	resize: both;
+    overflow: auto;
+}
+ul{
+	padding: 25px;
+}
+button{
+background-color:#E76043;
+text-align: center;
+border: 5px #ffe6c9;
+color: antiquewhite;
+border-radius:10%;
+}
+/*I'm a sad bitch/*
