@@ -12,13 +12,14 @@
 <font><p>Oh <i>Puck.</i> Looks like the file you were looking for can't be found here. We're sorry if this an issue with the site code, but if not, here are some places you can go to retrace your steps:</p>
 <script type="text/javascript">
 function Prev(){
+	window.location=history.back();
 }
 function Home(){
+	window.location="index.html"
 }</script>
 <br>
-<button onclick="Prev()">Go back to the previous page</button>
-<br>
-<button onclick="Home()">Go back to the home page</button>
+<button class="404" onclick="Prev()">Go back to the previous page</button>
+<button class="404" onclick="Home()">Go back to the home page</button>
 </font>
 </section>
 </center>
