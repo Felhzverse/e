@@ -34,6 +34,9 @@ div {
     padding: 25px;
     margin: 25px;
 }
+div.characters {
+	
+}
 iframe{
 	overflow: hidden;
 	width: 90%;
