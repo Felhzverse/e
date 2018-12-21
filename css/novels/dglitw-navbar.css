@@ -26,7 +26,7 @@
 /*dropdown link*/
 .dropdown a{
   font-size: 5;
-  color: #C98252;
+  color: #EEEEDD;
   text-align: center;
   padding: 5px; 
   text-decoration: none;
@@ -36,7 +36,7 @@
   font-size: 5; 
   border: none;
   outline: none;
-  color: #C98252;
+  color: #EEEEDD;
   padding: none; 
   background-color: #993344;
   font-family: Arial; /* Important for vertical align on mobile phones */
@@ -69,7 +69,7 @@
   float: center;
   display: inline-block;
   font-size: 5;
-  color: #C98252;
+  color: #EEEEDD;
   text-align: center;
   padding: 5px;
   text-decoration: none;
