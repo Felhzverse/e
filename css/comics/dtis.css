@@ -20,7 +20,7 @@ footer{
 	background-color: paleturquoise;
 	color: #fe6761;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	size: 5; 
+	font-size: 5; 
 	text-indent: 50px;
 	padding: 40px;
 }
@@ -30,6 +30,11 @@ div {
     padding: 25px;
     margin: 25px;
 	border-color:#fe6761;
+}
+div.desc {
+	background-color:whitesmoke;
+	font-size: 5;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 button{
 	 background-color: #fe6761;
@@ -50,6 +55,9 @@ button.archive{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+img.page{
+	width:50%;
 }
 img.logo{
 	height:300px;
