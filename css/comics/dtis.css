@@ -30,11 +30,16 @@ div {
     padding: 25px;
     margin: 25px;
 	border-color:#fe6761;
+	color: darkgray;
 }
 div.desc {
 	background-color:whitesmoke;
 	font-size: 5;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: darkgray;
+}
+div.character{
+	color: darkgray;
 }
 button{
 	 background-color: #fe6761;
@@ -58,6 +63,9 @@ button.archive{
 }
 img.page{
 	width:50%;
+}
+img.charIcon{
+	border: 10px solid antiquewhite;
 }
 img.logo{
 	height:300px;
