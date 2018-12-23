@@ -1,42 +1,38 @@
 <!doctype html>
 <html>
-<head>  <link rel="shortcut icon" type="image/x-icon" href="../Ico/tac.ico" />
-<title>The Adventure Crew- Archive 
+<head>  <link rel="shortcut icon" type="image/x-icon" href="../ico/tac.ico" />
+<title>The Adventure Crew- Archive
 </title>
-<link rel="stylesheet" type="text/css" href="./TAC.css" >
+<link rel="stylesheet" type="text/css" href="../css/comics/tac.css" >
+<link rel="stylesheet" type="text/css" href="../css/comics/tac-navbar.css" >
 </head>
-<body bgcolor="#00D5FF" link="antiquewhite"> 
-<center> <font size = "24" color="white" face="arial" > The Adventure Crew- Archive  <br> <a href="./TAC-home.html"><img src="../Images/trees.png" style="width:65%" alt="All Together.png"></a> </font> </center> 
-<!-- table start--> 
-<center> 
-<table colspan="7" align="left" valign="bottom" border="10" bordercolor="#6E2C00" bgcolor="#AFD7B4" height="50" style="width:100%">
-<tr>
-<td align="center"><a href="./TAC-home.html"> <font size="5" color="#C98252" face="arial">Home</font></a></td> 
-<td align="center"><a href="./TAC-about.html"> <font size="5" color="#C98252" face="arial">About</font></a></td> 
-<td align="center"><a href="./TAC-characters.html"> <font size="5" color="#C98252" face="arial">Characters</font></a></td> 
-<td align="center"><a href="./TAC-archive.html"> <font size="5" color="#C98252" face="arial">Archive</font></a></td> 
-<td align="center"><a href="../Main/Home-Page.html"> <font size="5" color="#C98252" face="arial">Felhzverse  </font></a></td> 
-</tr>
-</table>
-</center>  
-<!-- end of Table of Contents-->
-	<br>
-	<br>
-	<br>
+<body> 
+<header id="top">
+<center><a href="index.html"><img src="../images/TAC-Banner.png" class="banner" alt="TAC Head.png"></a></center> 
+<center>
+<div class="navbar">
+<div class="dropdown"><a href="index.html"> <font size="5">Home</font></a></div>
+<div class="dropdown"><a href="about.html"> <font size="5">About</font></a></div>
+<div class="dropdown"><a href="characters.html"> <font size="5">Characters</font></a></div>
+<div class="dropdown"><a href="archive.html"> <font size="5">Archive</font></a></div>
+<div class="dropdown"><a href="../index.html"> <font size="5">Felhzverse</font></a></div>
+</div>
+</center>
+</header>
 <!-- first last -->
-<div><font face="Arial" color="#647A72" size="6"><center>
+<div><font size="6"><center>
 Lost? Re-find your place here! 
 <br>
 <!-- JS--> 
 <script type="text/javascript">
 var thisPage= 0; 
 </script>
-<script src="../buttons/TAC-Pages.js"></script>
+<script src="../js/buttons/tac.js"></script>
 	
 <!-- start page button-->
 <button type="button" id="first" class="archive" onclick="homeFirst()">First</button>
 ||||
-<a href="A1/Pages/1.png"></a>	
+<a href="1/pages/1.png"></a>	
 <!-- latest page button--> 
 <button type="button" id="latest" class="archive" onclick="homeLatest()">Latest</button>
 </center>
@@ -46,7 +42,7 @@ var thisPage= 0;
 <!-- actual archive--> 
 
 <div id="Find">
-<!--center><font size="7" face="Arial" color="#647A72"><b><u>Comics By Chapter</u></b></font></center>
+<!--center><font size="7" ><b><u>Comics By Chapter</u></b></font></center>
 <br>
 <center>
 <select class="archive">
@@ -55,15 +51,21 @@ var thisPage= 0;
 </select>
 </center>
 <br-->
-<center><font size="7" face="Arial" color="#647A72"><b><u>Comics By Chapter</u></b></font></center>
+<center><font size="7" ><b><u>Comics By Chapter</u></b></font></center>
 	<br>
 <!-- Chapter 1--> 
-<font size="6" face="Arial" color="#647A72"><b>Chapter One</b></font>
+<font size="6" ><b>Chapter One</b></font>
 <br>
-<img src="./A1/Pages/1.png" id="chapterOne" class="archive" onclick="homeFirst()">
+<img src="1/pages/1.png" id="chapterOne" class="archive" onclick="homeFirst()">
 <br>
-
 </div>
-<!-- bye--> 
+<footer>
+&nbsp;Felhzverse™ is run by a group of friends who love to create stories. We only take credit for creating the universe, and helping it grow. If you have any questions, comments, or concerns, please contact us on our email or discord! We will try to respond as soon as possible.
+<br>
+Email: <a href="mailto:felhzversecomics@gmail.com"><font color="#F4AB31">felhzversecomics@gmail.com</font></a>
+<br>
+<a href="../index.html"><font color="#F4AB31">Felhzverse Home</font></a> | <a href="./index.html"><font color="#F4AB31">The Adventure Crew Home</font></a>
+<center> <a href="#top"><font color="#F4AB31">Back to Top</font></a></center>
+</footer>
 </body>
 </html>
