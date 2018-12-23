@@ -1,20 +1,19 @@
 // JavaScript Document
 //COMIC: THE DIFFERENCES BETWEEN US
-//BLANK: ../../A1/Site/TDBU-0X.html
 
 // Pages array (include links)
 var pageNumber=[];
-pageNumber[0]= "1/site/01.html";
-/* pageNumber[1]= "1/site/02.html";
-pageNumber[2]= "1/site/03.html";
-pageNumber[3]= "1/site/04.html";
-pageNumber[4]= "1/site/05.html";
-pageNumber[5]= "1/site/06.html";
-pageNumber[6]= "1/site/07.html";
-pageNumber[7]= "1/site/08.html";
-pageNumber[8]= "1/site/09.html";
-pageNumber[9]= "1/site/10.html";
-pageNumber[10]= "1/site/11.html";
+pageNumber[0]= "chapter/01.html";
+/* pageNumber[1]= "chapter/02.html";
+pageNumber[2]= "chapter/03.html";
+pageNumber[3]= "chapter/04.html";
+pageNumber[4]= "chapter/05.html";
+pageNumber[5]= "chapter/06.html";
+pageNumber[6]= "chapter/07.html";
+pageNumber[7]= "chapter/08.html";
+pageNumber[8]= "chapter/09.html";
+pageNumber[9]= "chapter/10.html";
+pageNumber[10]= "chapter/11.html";
 */
 
 //actual code
@@ -31,12 +30,12 @@ document.getElementById("latest").disabled = false;
 //first
 function homeFirst(){
 "use strict"; 
-	   	   document.location="./"+"tdbu"+pageNumber[0]; 
+	   	   document.location="./"+pageNumber[0]; 
 }
 //latest
 function homeLatest(){
 "use strict";
-	   	   document.location="./"+"tdbu"+pageNumber[i]; 
+	   	   document.location="./"+pageNumber[i]; 
 }
 
 //first button
@@ -92,10 +91,6 @@ document.getElementById("latest").onclick = function() {
 //ARCHIVE
 function archiveOne(){
 "use strict";
-	window.alert("./"+"tdbu"+pageNumber[1]);
-	   	   document.location="./"+"tdbu"+pageNumber[1]; 
+	window.alert("./"+pageNumber[1]);
+	   	   document.location="./"+pageNumber[1]; 
 }
-
-
-
-
