@@ -1,17 +1,17 @@
 body{
-	color: gray;
+	color: #141A35;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
-	background-color: #7BD457;
+	background-color: #3A9A8D;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:unvisited{
-	color: gray; 
+	color: #141A35; 
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:visited{
-	color: gray;
+	color: #141A35;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	
 }
@@ -30,20 +30,20 @@ div {
     padding: 25px;
     margin: 25px;
 	border-color:#fe6761;
-	color: gray;
+	color: #141A35;
 }
 div.desc {
 	background-color:whitesmoke;
 	font-size: 5;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: gray;
+	color: #141A35;
 }
 div.character{
-	color: gray;
+	color: #141A35;
 }
 button{
 	 background-color: #fe6761;
-    border: 5px solid paleturquoise;
+    border: 5px solid #D43D5D;
     color: whitesmoke;
     padding: 15px 32px;
     text-align: center;
@@ -53,7 +53,7 @@ button{
 }
 button.archive{
 	background-color: #fe6761;
-    border: 5px solid #7BD457;
+    border: 5px solid #3A9A8D;
     color: whitesmoke;
     padding: 15px 32px;
     text-align: center;

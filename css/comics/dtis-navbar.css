@@ -1,6 +1,6 @@
  /* Navbar container */
 .navbar {
-  color: gray;
+  color: #141A35;
   overflow: hidden;
   background-color: paleturquoise;
   font-family: Arial;
@@ -27,7 +27,7 @@
 /*dropdown link*/
 .dropdown a{
   font-size: 5;
-  color: gray;
+  color: #141A35;
   text-align: center;
   padding: 5px; 
   text-decoration: none;
@@ -37,7 +37,7 @@
   font-size: 5; 
   border: none;
   outline: none;
-  color: gray;
+  color: #141A35;
   padding: none; 
   background-color: paleturquoise;
   font-family: Arial; /* Important for vertical align on mobile phones */
@@ -47,7 +47,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: gray;
+  background-color: #141A35;
    color: saddlebrown;
 }
 
@@ -70,7 +70,7 @@
   float: center;
   display: inline-block;
   font-size: 5;
-  color: gray;
+  color: #141A35;
   text-align: center;
   padding: 5px;
   text-decoration: none;
@@ -78,7 +78,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-   background-color: gray;
+   background-color: #141A35;
    color: saddlebrown;
 }
 
