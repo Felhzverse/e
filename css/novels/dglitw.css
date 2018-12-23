@@ -35,7 +35,7 @@ div {
     padding: 25px;
     margin: 25px;
 }
-div.characters {
+div.character {
 	
 }
 iframe{
@@ -91,6 +91,9 @@ img.archive{
 img.banner{
 	border-radius: 25px;
 	width:65%;
+}
+img.charIcon{
+	border: 10px solid ghostwhite;
 }
 select.archive {
     width: 50%;

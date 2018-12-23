@@ -1,5 +1,5 @@
 body{
-	color: darkgray;
+	color: #7C7CC0;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
@@ -7,10 +7,10 @@ body{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:unvisited{
-	color: darkgray; 
+	color: #7C7CC0; 
 }
 a:visited{
-	color: darkgray; 
+	color: #7C7CC0; 
 }
 footer{
 	display: block;
@@ -36,16 +36,19 @@ div {
     margin: 25px;
 	border-color:#659157;
 }
+div.character {
+	
+}
 iframe{
 	overflow: hidden;
 	width: 90%;
 	height: 500px; 
 }
 iframe.chapter{
-	border: 15px solid darkgray;
+	border: 15px solid #7C7CC0;
 }
 button{
-	 background-color: darkgray;
+	 background-color: #7C7CC0;
     border: 5px solid #659157;
     color: whitesmoke;
     padding: 15px 32px;
@@ -55,7 +58,7 @@ button{
     font-size: 16px;
 }
 button.archive{
-	background-color: darkgray;
+	background-color: #7C7CC0;
     border: 5px solid #659157;
     color: whitesmoke;
     padding: 15px 32px;
@@ -91,9 +94,12 @@ img.banner{
 	border-radius: 25px;
 	width:65%;
 }
+img.charIcon{
+	border: 10px solid antiquewhite;
+}
 select.archive {
     width: 50%;
     padding: 16px 20px;
     border: 4px solid whitesmoke;
-    background-color: darkgray;
+    background-color: #7C7CC0;
 }
