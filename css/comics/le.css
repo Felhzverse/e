@@ -1,45 +1,45 @@
 body{
-	color: #ef3b68;
+	color: #302525;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
-	background-color: #659157;
+	background-color: #ec98bd;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:unvisited{
-	color: #ef3b68; 
+	color: #302525; 
 }
 a:visited{
-	color: #ef3b68; 
+	color: #302525; 
 }
 footer{
 	display: block;
-	background-color: #00b4cc;
-	color: #ffbc2d;
+	background-color: #754165;
+	color: #ffa5a5;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	size: 5; 
 	text-indent: 50px;
 	padding: 40px;
 }
 div {
-	background-color: #ffbc2d;
-    border: 25px solid #00b4cc;
+	background-color: #ffa5a5;
+    border: 25px solid #e56767;
     padding: 25px;
     margin: 25px;
-	border-color:#00b4cc;
+	border-color:#e56767;
 }
 div.desc {
 	background-color:antiquewhite;
 	font-size: 5;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: #ef3b68;
+	color: #302525;
 }
 div.character{
-	color: #ef3b68;
+	color: #302525;
 }
 button{
-	 background-color: #ef3b68;
-    border: 5px solid #00b4cc;
+	 background-color: #754165;
+    border: 5px solid #e56767;
     color: whitesmoke;
     padding: 15px 32px;
     text-align: center;
@@ -48,8 +48,8 @@ button{
     font-size: 16px;
 }
 button.archive{
-	background-color: #ef3b68;
-    border: 5px solid #00b4cc;
+	background-color: #754165;
+    border: 5px solid #e56767;
     color: whitesmoke;
     padding: 15px 32px;
     text-align: center;
@@ -79,5 +79,5 @@ select.archive {
     width: 50%;
     padding: 16px 20px;
     border: 4px solid whitesmoke;
-    background-color: #ef3b68;
+    background-color: #754165;
 }
