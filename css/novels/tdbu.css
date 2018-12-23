@@ -4,6 +4,7 @@ body{
 	text-align: justify;
 	font-size: 5;
 	background-color: #69A2B0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:unvisited{
 	color: darkgray; 
@@ -85,6 +86,10 @@ img.archive{
 	width:200px;
 	border: 15px solid whitesmoke;
 	border-radius: 5%;
+}
+img.banner{
+	border-radius: 25px;
+	width:65%;
 }
 select.archive {
     width: 50%;

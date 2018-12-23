@@ -3,6 +3,7 @@ body{
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	background-color: #9a94bc; 
 }
 a:unvisited{
@@ -27,6 +28,10 @@ div {
     padding: 25px;
     margin: 25px;
 }
+div.character{
+	background-color:#E9FFD1;
+	color: #9b5094;
+}
 button{
 	 background-color: #9b5094;
     border: 5px solid #cdf7f6;
@@ -47,6 +52,12 @@ button.archive{
     display: inline-block;
     font-size: 16px;
 }
+img.page{
+	width:50%;
+}
+img.charIcon{
+	border: 10px solid #8fb8de;
+}
 img.logo{
 	height:300px;
 	width:300px;
@@ -61,6 +72,10 @@ img.archive{
 }
 img.button{
 	
+}
+img.banner{
+	border-radius: 25px;
+	width:65%;
 }
 select.archive {
     width: 50%;
