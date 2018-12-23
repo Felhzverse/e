@@ -4,6 +4,7 @@ body{
 	text-align: justify;
 	font-size: 5;
 	background-color: #659157;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:unvisited{
 	color: #ef3b68; 
@@ -27,6 +28,15 @@ div {
     margin: 25px;
 	border-color:#00b4cc;
 }
+div.desc {
+	background-color:antiquewhite;
+	font-size: 5;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #ef3b68;
+}
+div.character{
+	color: #ef3b68;
+}
 button{
 	 background-color: #ef3b68;
     border: 5px solid #00b4cc;
@@ -46,6 +56,12 @@ button.archive{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+img.page{
+	width:50%;
+}
+img.charIcon{
+	border: 10px solid whitesmoke;
 }
 img.logo{
 	height:300px;

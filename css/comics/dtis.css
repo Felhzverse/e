@@ -1,5 +1,5 @@
 body{
-	color: darkgray;
+	color: gray;
 	text-align: center;
 	text-align: justify;
 	font-size: 5;
@@ -7,11 +7,11 @@ body{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:unvisited{
-	color: darkgray; 
+	color: gray; 
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 a:visited{
-	color: darkgray;
+	color: gray;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	
 }
@@ -30,16 +30,16 @@ div {
     padding: 25px;
     margin: 25px;
 	border-color:#fe6761;
-	color: darkgray;
+	color: gray;
 }
 div.desc {
 	background-color:whitesmoke;
 	font-size: 5;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: darkgray;
+	color: gray;
 }
 div.character{
-	color: darkgray;
+	color: gray;
 }
 button{
 	 background-color: #fe6761;
