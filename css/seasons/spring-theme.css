@@ -50,6 +50,9 @@ div {
     padding: 25px;
     margin: 25px;
 }
+section{
+	background-color: #EC9A72;	
+}
 /* People borders*/ 
 div.Alice{
 	background-color: lightpink; 
