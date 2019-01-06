@@ -3,7 +3,7 @@
 
 // Pages array (include links)
 var pageNumber=[];
-pageNumber[0]= "/1/01.html";
+pageNumber[0]= "/1/index.html";
 /* pageNumber[1]= "/1/02.html";
 pageNumber[2]= "/1/03.html";
 pageNumber[3]= "/1/04.html";
