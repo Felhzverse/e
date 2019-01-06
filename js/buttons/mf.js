@@ -28,12 +28,12 @@ document.getElementById("latest").disabled = false;
 //first
 function homeFirst(){
 "use strict"; 
-	   	   document.location="./"+"zf"+pageNumber[0]; 
+	   	   document.location="./"+pageNumber[0]; 
 }
 //latest
 function homeLatest(){
 "use strict";
-	   	   document.location="./"+"zf"+pageNumber[i]; 
+	   	   document.location="./"+pageNumber[i]; 
 }
 
 //first button
