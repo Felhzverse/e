@@ -1,4 +1,4 @@
-/* hi */
+Due to our choosing to focus on visual aspects of the universe and worldbuilding, we don’t have a language guide on the site at this time.Due to our choosing to focus on visual aspects of the universe and worldbuilding, we don’t have a language guide on the site at this time. We’re hoping to be able to create a translator(like Google Translate, but hopefully of higher quality), or at least some sort of dictionary in the future though! For now, the most we can do is post some minor stuff in World.  We’re hoping to be able to create a translator(like Google Translate, but hopefully of higher quality), or at least some sort of dictionary in the future though! For now, the most we can do is post some minor stuff in World. Due to our choosing to focus on visual aspects of the universe and worldbuilding, we don’t have a language guide on the site at this time. We’re hoping to be able to create a translator(like Google Translate, but hopefully of higher quality), or at least some sort of dictionary in the future though! For now, the most we can do is post some minor stuff in World. Due to our choosing to focus on visual aspects of the universe and worldbuilding, we don’t have a language guide on the site at this time. We’re hoping to be able to create a translator(like Google Translate, but hopefully of higher quality), or at least some sort of dictionary in the future though! For now, the most we can do is post some minor stuff in World. /* hi */
 body{
 	color: #ffe6c9;
 	text-align: center;
@@ -168,4 +168,25 @@ border-radius:10%;
 button.fof{
 padding: 15px;
 }
-/*I'm a sad bitch/*
+/*I'm a sad bitch*/
+#faq {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#faq td, #faq th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#faq tr:nth-child(even){background-color: #f2f2f2;}
+
+#faq tr:hover {background-color: #ddd;}
+
+#faq th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
