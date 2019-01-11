@@ -190,3 +190,6 @@ color: #6A552A;}
   background-color: #6A552A;
   color: #ffe6c9;
 }
+td.faq{
+  display: none;
+}
