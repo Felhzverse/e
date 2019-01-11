@@ -126,7 +126,7 @@ div.discordAd{
 img.icon{
 	height:150;
 	width:150;
-	border: 5px solid #FFFEFC;
+	border: 5px solid #F0E996;
 	border-radius: 5%;
 }
 img.ad{
@@ -169,25 +169,25 @@ padding: 15px 32px;
 }
 
 #faq td, #faq th {
-  border: 1px solid #CBD76B;
+  border: 1px solid #54746B;
   padding: 8px;
 }
 
 #faq tr:hover {
-background-color: #CBD76B; 
-color: #6A552A;}
+background-color: #E58B4C; 
+color: #F5FFFA;}
 
 #faq th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #6A552A;
-  color: #ffe6c9;
+  background-color: #906461;
+  color: #F0E996;
 }
 
 #faq th:hover {
-background-color: #ffe6c9; 
-color: #6A552A;}
+background-color: #F0E996; 
+color: #906461;}
 
 td.faq{
   display: none;
