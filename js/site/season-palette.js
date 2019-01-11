@@ -16,23 +16,6 @@ var m = d.getMonth();
 var n = month[d.getMonth()];
 function seasonLoad(){
 "use strict"; 
-	
-function Winter(){
-window.alert("Winter");
-document.getElementById("trees").src = "../Images/WinterLogoTree.png";
-}
-function Spring(){
-window.alert("Spring");
-document.getElementById("trees").src = "../Images/SpringLogoTree.png";
-}
-function Summer(){
-window.alert("Summer");
-document.getElementById("trees").src = "../Images/SummerLogoTree.png";
-}
-function Fall(){
-window.alert("Fall");
-document.getElementById("trees").src = "../Images/FallLogoTree.png";
-}
 
 if(m<=2){
 Winter(); 
@@ -46,6 +29,23 @@ Summer();
 if(m<=11){ 
 Fall(); 
    }
+	
+function Winter(){
+window.alert("Winter");
+document.getElementByClass("trees").src = "images/WinterLogoTree.png";
+}
+function Spring(){
+window.alert("Spring");
+document.getElementByClass("trees").src = "images/SpringLogoTree.png";
+}
+function Summer(){
+window.alert("Summer");
+document.getElementByClass("trees").src = "images/SummerLogoTree.png";
+}
+function Fall(){
+window.alert("Fall");
+document.getElementByClass("trees").src = "images/FallLogoTree.png";
+}
 	
 
 }
