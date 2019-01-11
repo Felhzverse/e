@@ -190,6 +190,11 @@ color: #6A552A;}
   background-color: #6A552A;
   color: #ffe6c9;
 }
+
+#faq th:hover {
+background-color: #ffe6c9; 
+color: #6A552A;}
+
 td.faq{
   display: none;
 }
