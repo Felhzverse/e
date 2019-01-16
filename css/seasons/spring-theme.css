@@ -169,21 +169,21 @@ button.fof{
 padding: 15px;
 }
 /*I'm a sad bitch*/
-#faq {
+.faq {
   border-collapse: collapse;
   width: 100%;
 }
 
-#faq td, #faq th {
+.faq td, .faq th {
   border: 1px solid #CBD76B;
   padding: 8px;
 }
 
-#faq tr:hover {
+.faq tr:hover {
 background-color: #CBD76B; 
 color: #6A552A;}
 
-#faq th {
+.faq th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -191,7 +191,7 @@ color: #6A552A;}
   color: #ffe6c9;
 }
 
-#faq th:hover {
+.faq th:hover {
 background-color: #ffe6c9; 
 color: #6A552A;}
 
