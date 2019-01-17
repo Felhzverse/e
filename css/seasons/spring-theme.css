@@ -44,6 +44,10 @@ ul{
 	font-size: 6;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
+h1,h2,h3,h4,h5,h6{
+font-size: 50px; 
+text-decoration: underline;
+}
 div {
 	background-color: #EC9A72;
     border: 25px solid #E76043;
@@ -169,19 +173,18 @@ button.fof{
 padding: 15px;
 }
 /*I'm a sad bitch*/
+table.faq{
+	border: 5px solid #CBD76B;
+}
 .faq {
   border-collapse: collapse;
   width: 100%;
 }
 
 .faq td, .faq th {
-  border: 1px solid #CBD76B;
+  
   padding: 8px;
 }
-
-.faq tr:hover {
-background-color: #CBD76B; 
-color: #6A552A;}
 
 .faq th {
   padding-top: 12px;
@@ -195,6 +198,6 @@ color: #6A552A;}
 background-color: #ffe6c9; 
 color: #6A552A;}
 
-td.faq{
-  display: none;
-}
+.faq td{
+background-color: #CBD76B; 
+color: #6A552A;}
