@@ -159,25 +159,25 @@ border: 5px #E58B4C;
 color:#E58B4C;
 border-radius:10%;
 }
-button.404 {
+button.fof {
 padding: 15px 32px;
 }
 /*I'm a sad bitch*/
-#faq {
+.faq {
   border-collapse: collapse;
   width: 100%;
 }
 
-#faq td, #faq th {
+.faq td, .faq th {
   border: 1px solid #54746B;
   padding: 8px;
 }
 
-#faq tr:hover {
+.faq tr:hover {
 background-color: #E58B4C; 
 color: #F5FFFA;}
 
-#faq th {
+.faq th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -185,10 +185,10 @@ color: #F5FFFA;}
   color: #F0E996;
 }
 
-#faq th:hover {
+.faq th:hover {
 background-color: #F0E996; 
 color: #906461;}
 
-td.faq{
+.faq td{
   display: none;
 }

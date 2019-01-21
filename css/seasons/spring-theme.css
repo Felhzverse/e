@@ -201,3 +201,6 @@ color: #6A552A;}
 .faq td{
 background-color: #CBD76B; 
 color: #6A552A;}
+.faq td{
+  display: none;
+}
