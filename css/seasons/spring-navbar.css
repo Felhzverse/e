@@ -1,23 +1,26 @@
 .topnav {
   overflow: hidden;
   background-color: #EC9A72;
+  height: inherit;
+  width: inherit;
 }
 
-.topnav a {
+.nav{
   float: left;
   color: #ffe6c9;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin: auto;
 }
 
-.topnav a:hover {
+.nav :hover {
   background-color: #ffe6c9;
-  color: #EC9A72;
+  color: #E76043;
 }
 
-.topnav a.active {
+#active {
   background-color: #E76043;
   color: #ffe6c9;
 }
