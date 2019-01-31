@@ -15,3 +15,60 @@ img.sicon{
 	border: 5px solid #ffe6c9;
 	border-radius: 5%;
 }
+/* basic info*/
+table.bi{
+	border: 5px solid #CBD76B;
+	width: 60%;
+}
+.bi {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.bi td, .bi th {
+  
+  padding: 8px;
+}
+
+.bi th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6A552A;
+  color: #ffe6c9;
+}
+
+.bi th:hover {
+background-color: #ffe6c9; 
+color: #6A552A;}
+
+.bi td{
+background-color: #CBD76B; 
+color: #6A552A;}
+.bi td{
+  display: none;
+}
+/* compatibility*/
+table.compat{
+	border: 5px solid #CBD76B;
+	width: 25%;
+}
+.compat {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.compat td, .compat th {
+  
+  padding: 8px;
+}
+.compat th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #6A552A;
+  color: #ffe6c9;
+}
+.compat td{
+background-color: #CBD76B; 
+color: #6A552A;}
