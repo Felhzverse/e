@@ -50,6 +50,7 @@ text-decoration: underline;
 }
 div {
 	background-color: #EC9A72;
+	padding: 10px;
 }
 section{
 	background-color: #EC9A72;	
@@ -62,7 +63,7 @@ div.Alice{
 	border-color:#ffe6c9;
 	color: white;
 }
-div.Amina{
+div.Amir{
 	background-color:#72d14f;
 	border-color:#fe6761;
 	color: antiquewhite;

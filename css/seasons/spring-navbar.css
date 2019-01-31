@@ -3,6 +3,7 @@
   background-color: #EC9A72;
   height: inherit;
   width: inherit;
+  padding: none;
 }
 
 .nav{
@@ -13,6 +14,7 @@
   text-decoration: none;
   font-size: 17px;
   margin: auto;
+  padding: none;
 }
 
 .nav :hover {
