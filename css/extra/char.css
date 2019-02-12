@@ -1,0 +1,16 @@
+img.cicon{
+	height:200px;
+	width:200px;
+	border: 5px solid #ffe6c9;
+	border-radius: 5%;
+}
+#sInput{
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 75%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 5%;
+}
