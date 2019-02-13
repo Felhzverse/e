@@ -14,3 +14,37 @@ img.cicon{
   margin-bottom: 12px;
   border-radius: 5%;
 }
+/* squish*/
+table.squish{
+	border: 5px solid #CBD76B;
+	width: 20%;
+}
+.squish {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.squish td, .squish th {
+  
+  padding: 8px;
+}
+
+.squish th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6A552A;
+  color: #ffe6c9;
+}
+
+.squish th:hover {
+background-color: #ffe6c9; 
+color: #6A552A;}
+
+.squish td{
+background-color: #CBD76B; 
+color: #6A552A;}
+
+.squish td{
+  display: none;
+}
