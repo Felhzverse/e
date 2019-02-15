@@ -14,23 +14,17 @@ img.cicon{
   margin-bottom: 12px;
   border-radius: 5%;
 }
-p#gen{
-	width: 50%;
-	padding: 2px;
-}
 .topT{
 	float: left;
 }
 /* squish*/
 table.squish{
 	border: 5px solid #CBD76B;
-	width: 50%;
 }
 .squish {
   border-collapse: collapse;
   width: 100%;
 }
-
 .squish td, .squish th {
   
   padding: 8px;
