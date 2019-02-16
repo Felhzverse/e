@@ -14,6 +14,9 @@ img.cicon{
   margin-bottom: 12px;
   border-radius: 5%;
 }
+span.cinfo{
+	font-size: 24px;
+}
 .topT{
 	float: left;
 }
@@ -48,4 +51,31 @@ color: #6A552A;}
 
 .squish td{
   display: none;
+}
+/*l&d*/
+table.ld{
+	border: 5px solid #CBD76B;
+	width: 50%;
+}
+.ld {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ld td, .ld th {
+  
+  padding: 8px;
+}
+.ld th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #6A552A;
+  color: #ffe6c9;
+ font-size: 28px;
+}
+.ld td{
+background-color: #CBD76B; 
+color: #6A552A;
+font-size: 24px;
 }
