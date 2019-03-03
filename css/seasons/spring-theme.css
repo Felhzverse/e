@@ -3,54 +3,59 @@ body{
 	color: #ffe6c9;
 	text-align: center;
 	text-align: justify;
-	font-size: 5;
 	background-color: #CBD76B;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family:'Thyeena', sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	letter-spacing: 2px;
+	font-size: 24px;
 }
 @font-face {
-font-family: "Mona-Free";
-src: url("https://github.com/felhzverse/e/css/fonts/Mona-Lite/Mona-Free.eot");
-src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
-url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
-url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+font-family: "Mona Lite";
+src: url("../fonts/Mona-Lite/Mona-Free.eot");
+src: url("../fonts/Mona-Lite/Mona-Free.woff") format("woff"),
+url("../fonts/Mona-Lite/Mona-Free.otf") format("opentype"),
+url("../fonts/Mona-Lite/Mona-Free.svg") format("svg");
+}
+
+@font-face {
+font-family: Thyeena;
+src: url("../fonts/Thyeena/thyeena.eot");
+src: url("../fonts/Thyeena/thyeena.woff") format("woff"),
+url("../fonts/Thyeena/thyeena.otf") format("opentype"),
+url("../fonts/Thyeena/thyeena.svg") format("svg");
+}
+h1,h2,h3,h4,h5,h6{
+font-family: "Mona Lite", sans-serif;
+text-decoration: underline;
+font-weight:normal;
+font-style:normal;
+letter-spacing: 2px;
+font-size: 36px;
 }
 a{
     color: #ffe6c9;
 	text-align: center;
 	text-align: justify;
-	font-size: 5;
 }
 a:visited {
     color: #ffe6c9;
 	text-align: center;
 	text-align: justify;
-	font-size: 5;
 }
 footer{
 	display: block;
 	background-color: #E76043;
 	color: #ffe6c9;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	size: 5; 
 	text-indent: 50px;
 	padding: 40px;
 }
-p {
-    text-indent: 50px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: #ffe6c9;
-	text-align: center;
-	text-align: justify;
-	font-size: 5;
-}
 ul{
 	font-size: 6;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
 }
-h1,h2,h3,h4,h5,h6{
-font-size: 50px; 
-text-decoration: underline;
-}
+
 div {
 	background-color: #EC9A72;
 	padding: 10px;
@@ -66,7 +71,7 @@ div.Alice{
 	border-color:#ffe6c9;
 	color: white;
 }
-div.Amina{
+div.Amir{
 	background-color:#72d14f;
 	border-color:#fe6761;
 	color: antiquewhite;

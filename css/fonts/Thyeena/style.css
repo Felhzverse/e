@@ -1,0 +1,11 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Thyeena";
+  src: url("./fonts/thyeena.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/thyeena.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/thyeena.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/thyeena.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/thyeena.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
