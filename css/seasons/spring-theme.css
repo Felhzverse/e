@@ -8,8 +8,11 @@ body{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 @font-face {
-  font-family: Title, "Mona";
-  src: url("../Fonts/Mona-Lite/Mona-Free.woff");
+font-family: "Mona-Free";
+src: url("https://github.com/felhzverse/e/css/fonts/Mona-Lite/Mona-Free.eot");
+src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
 }
 a{
     color: #ffe6c9;
