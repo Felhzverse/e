@@ -4,27 +4,15 @@ body{
 	text-align: center;
 	text-align: justify;
 	background-color: #CDD77A;
-	font-family:'Thyeena', sans-serif;
+	font-family:'Arial', sans-serif;
 	font-weight:normal;
 	font-style:normal;
 	letter-spacing: 2px;
 	font-size: 24px;
 }
-@font-face {
-font-family: "Mona Lite";
-src: url("../fonts/Mona-Lite/Mona-Free.eot");
-src: url("../fonts/Mona-Lite/Mona-Free.woff") format("woff"),
-url("../fonts/Mona-Lite/Mona-Free.otf") format("opentype"),
-url("../fonts/Mona-Lite/Mona-Free.svg") format("svg");
-}
 
-@font-face {
-font-family: Thyeena;
-src: url("../fonts/Thyeena/thyeena.eot");
-src: url("../fonts/Thyeena/thyeena.woff") format("woff"),
-url("../fonts/Thyeena/thyeena.otf") format("opentype"),
-url("../fonts/Thyeena/thyeena.svg") format("svg");
-}
+
+
 h1,h2,h3,h4,h5,h6{
 font-family: "Mona Lite", sans-serif;
 text-decoration: underline;
