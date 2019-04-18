@@ -166,7 +166,7 @@ padding: 15px;
 }
 /*I'm a sad bitch*/
 table.faq{
-	border: 5px solid #CBD76B;
+	border: 5px solid #CDD77A;
 }
 .faq {
   border-collapse: collapse;
@@ -182,17 +182,17 @@ table.faq{
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #6A552A;
+  background-color: #4C403D;
   color: #f7f6f2;
 }
 
 .faq th:hover {
 background-color: #f7f6f2; 
-color: #6A552A;}
+color: #4C403D;}
 
 .faq td{
-background-color: #CBD76B; 
-color: #6A552A;}
+background-color: #CDD77A; 
+color: #4C403D;}
 .faq td{
   display: none;
 }
