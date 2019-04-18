@@ -4,7 +4,6 @@ function all(){
 		qB(i);
 	}
 }
-
 function qB(num) {
 	var a = document.getElementById("aB"+num);
 	if (a.style.display === "block") {

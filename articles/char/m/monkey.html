@@ -1,31 +1,56 @@
 <!doctype html>
 <html lang="en">
-<head>  <link rel="shortcut icon" type="image/x-icon" href="../../../ico/felhzverse.ico">
-<title>Character Index- Monkey
+<head>  <link rel="shortcut icon" type="image/x-icon" href="../../../ico/felhzverse.ico" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Monkey is Bubs’ sort-of spirit guide. She kinda is a “Cassandra“ type character. ">
+<meta name="author" content="Felhzverse">
+<meta name="robots" content="none">
+<title>Char Index- Monkey
 </title>
 <link rel="stylesheet" type="text/css" href="../../../css/main.css" >
+<link rel="stylesheet" type="text/css" href="../../../css/extra/char.css" >
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="../../../css/extra/char.css" >
-<script type="text/javascript" src="../../../js/site/faq.js"></script>
+<script src="../../../js/site/faq.js"></script>
 </head>
 <body> 
-<header id="top">
-<div class="topnav">
-  <div class="nav"><a class="active" href="../../../"><font size="5">Home</font></a></div>
-  <div class="nav"><a href="../../../about.html"><font size="5">About/FAQ</font></a></div>
-  <div class="nav"><a href="../../../staff.html"><font size="5">Staff</font></a></div>
-  <div class="nav"><a href="../../../world/"><font size="5">World</font></a></div>
-  <div class="nav" id="active"><a href="../../../articles/"><font size="5">Articles</font></a></div>
-  <!--div class="nav"><a href="../../../extra/"><font size="5">Extra</font></a> </div-->
-</div>
-</header>
-<center><img id="head" alt="REAL Header"></center>
-<br>
-<center><img src="../../../images/underconstruction.png" alt="under construction"></center>
-<br>
+<nav id="top" class="navbar navbar-expand-lg navbar-light" style="background-color: #4C403D">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown" style="background-color: #4C403D">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">hi</button>
+    <ul class="navbar-nav" >
+	  <li>
+	  	<a class="navbar-brand" href="../../../">
+    	<img src="../../../icons/icon.png" width="50" height="50" alt="icon">
+ 		 </a>
+	  </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../../about.html" style="color:#f7f6f2;">About/FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../../../staff.html" style="color:#f7f6f2;">Ztaff</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="../../../world/" id="worldDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#f7f6f2;">
+          World
+        </a>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="../../" id="articlesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#f7f6f2;">
+          Articles
+        </a>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="../../../" id="extrasDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#f7f6f2;">
+          Extras
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <main>
 <center>
 <section width="80%;">
@@ -35,17 +60,17 @@
 <tr><td>
 <span class="topT">
 <table id="primary" class="squish">
-<tr><th id="qB1" onClick="qB1()">Full Name</th></tr>	
-<tr><td id="aB1" onClick="aB1()">[redacted] Purdic</td></tr>
-<tr><th id="qB2" onClick="qB2()">Birthday</th></tr>	
-<tr><td id="aB2" ">February 9, 2004</td></tr>
-<tr><th id="qB3" onClick="qB3()">Gender</th></tr>	
+<tr><th id="qB1" onClick="qB(1)">Full Name</th></tr>	
+<tr><td id="aB1">[redacted] Purdic</td></tr>
+<tr><th id="qB2" onClick="qB(2)">Birthday</th></tr>	
+<tr><td id="aB2">February 9, 2004</td></tr>
+<tr><th id="qB3" onClick="qB(3)">Gender</th></tr>	
 <tr><td id="aB3">Girl(She/Her)</td></tr>
-<tr><th id="qB4" onClick="qB4()">Species</th></tr>	
+<tr><th id="qB4" onClick="qB(4)">Species</th></tr>	
 <tr><td id="aB4"><a href="../../../world/si/feratran.html">Feratran</a></td></tr>
-<tr><th id="qB5" onClick="qB5()">Race</th></tr>	
+<tr><th id="qB5" onClick="qB(5)">Race</th></tr>	
 <tr><td id="aB5">Unknown</td></tr>
-<tr><th id="qB6" onClick="qB6()">Height</th></tr>	
+<tr><th id="qB6" onClick="qB(6)">Height</th></tr>	
 <tr><td id="aB6">4’8” (142 cm)</td></tr>
 <tr><th id="qB7" onClick="qB(7)">Location</th></tr>	
 <tr><td id="aB7">Trixton; Earth</td></tr>
@@ -60,20 +85,20 @@
 <span id="gen" class="cinfo">Monkey is Bubs’ sort-of spirit guide. She kinda is a “Cassandra“ type character. </span></td>
 <td><span  class="topT">
 <table id="secondary" class="squish">
-<tr><th id="qB8" onClick="qB8()">Zodiac</th></tr>	
-<tr><td id="aB8" onClick="aB8()">Aquarius</td></tr>
-<tr><th id="qB9" onClick="qB9()">Orientation/Sexuality</th></tr>	
-<tr><td id="aB9" onClick="aB9()">Lesbian</td></tr>
-<tr><th id="qB10" onClick="qB10()">Language</th></tr>	
-<tr><td id="aB10" onClick="aB10()">Every language*</td></tr>
-<tr><th id="qB11" onClick="qB11()">Favorite Color</th></tr>	
-<tr><td id="aB11" onClick="aB11()">Orange</td></tr>
-<tr><th id="qB12" onClick="qB12()">Favorite Food</th></tr>	
-<tr><td id="aB12" onClick="aB12()">Mutton</td></tr>
-<tr><th id="qB13" onClick="qB13()">Religion</th></tr>	
-<tr><td id="aB13" onClick="aB13()">Atheist</td></tr>
-<tr><th id="qB14" onClick="qB14()">Occupation</th></tr>	
-<tr><td id="aB14" onClick="aB14()">Student at Trixton Middle School</td></tr>
+<tr><th id="qB8" onClick="qB(8)">Zodiac</th></tr>	
+<tr><td id="aB8">Aquarius</td></tr>
+<tr><th id="qB9" onClick="qB(9)">Orientation/Sexuality</th></tr>	
+<tr><td id="aB9">Lesbian</td></tr>
+<tr><th id="qB10" onClick="qB(10)">Language</th></tr>	
+<tr><td id="aB10">Every language*</td></tr>
+<tr><th id="qB11" onClick="qB(11)">Favorite Color</th></tr>	
+<tr><td id="aB11">Orange</td></tr>
+<tr><th id="qB12" onClick="qB(12)">Favorite Food</th></tr>	
+<tr><td id="aB12">Mutton</td></tr>
+<tr><th id="qB13" onClick="qB(13)">Religion</th></tr>	
+<tr><td id="aB13">Atheist</td></tr>
+<tr><th id="qB14" onClick="qB(14)">Occupation</th></tr>	
+<tr><td id="aB14">Student at Trixton Middle School</td></tr>
 </table>
 </span></td>
 </tr>	
