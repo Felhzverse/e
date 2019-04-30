@@ -17,8 +17,7 @@ font-family: "Arial", sans-serif;
 text-decoration: underline;
 font-weight:normal;
 font-style:normal;
-letter-spacing: 2px;
-font-size: 36px;
+font-size: 28px;
 }
 a{
     color: #f7f6f2;
@@ -59,33 +58,33 @@ div {
 /* People borders*/ 
 div.Alice{
 	background-color: lightpink; 
-	border-color:#f7f6f2;
-	color: white;
+	color: #f7f6f2;
+	border: medium #f7f6f2;
+	border-radius: 2%;
 }
 div.Amir{
 	background-color:#78bc61;
-	border-color:#131200;
-	color: antiquewhite;
-}
-div.Christine{
-	background-color: hotpink;
-	border-color:white;
-	color: black;
+	color: #f7f6f2;
+	border: medium #131200;
+	border-radius: 2%;
 }
 div.Gianna{
 	background-color: #4B0082;
-	border-color:darkgreen;
-	color: antiquewhite;
+	color: #f7f6f2;
+	border: medium darkgreen;
+	border-radius: 2%;
 }
 div.Kienen{
 	background-color: #952143;
-	border-color:#D25A7E;
-	color: antiquewhite;
+	color: #f7f6f2;
+	border: medium #d25a7e;
+	border-radius: 2%;
 }
 div.Nick{
 	background-color: slategray;
-	border-color: ghostwhite;
 	color: white;
+	border: medium ghostwhite;
+	border-radius: 2%;
 }
 /* comic borders*/ 
 div.DGLITW{
@@ -108,20 +107,6 @@ div.DTIS{
 	color:antiquewhite ;
 	border-color:#ff557f;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 25%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
 img.icon{
 	height:150;
 	width:150;
