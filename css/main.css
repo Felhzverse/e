@@ -63,8 +63,8 @@ div.Alice{
 	color: white;
 }
 div.Amir{
-	background-color:#72d14f;
-	border-color:#fe6761;
+	background-color:#78bc61;
+	border-color:#131200;
 	color: antiquewhite;
 }
 div.Christine{
@@ -87,11 +87,6 @@ div.Nick{
 	border-color: ghostwhite;
 	color: white;
 }
-div.Shiro{
-	background-color: #ff8c69;
-	border-color:#98ff98;
-	color: white;
-}
 /* comic borders*/ 
 div.DGLITW{
 	background-color: #572966;
@@ -101,8 +96,7 @@ div.DGLITW{
 div.MF{
 	background-color: #8fb8de ;
 	color: antiquewhite;
-	border-color:#9a94bc;
-	
+	border-color:#9a94bc;	
 }
 div.LE{
 	background-color: #89c7d4 ;
@@ -114,17 +108,20 @@ div.DTIS{
 	color:antiquewhite ;
 	border-color:#ff557f;
 }
-div.TAC{
-	background-color: #89c7d4;
-	color:antiquewhite ;
-	border-color:#F7FF74;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 25%;
 }
-div.discordAd{
-	border: 10px solid white;
-	background-color:#7289DA;
-	padding: 10px;
-    margin: 10px;
+
+.fa:hover {
+    opacity: 0.7;
 }
+
 img.icon{
 	height:150;
 	width:150;
@@ -134,22 +131,6 @@ img.icon{
 img.ad{
 	height:640;
 	width:480;
-}
-img.social{
-	border: 5px solid #f5e5cf;
-	width: auto;
-	max-width:80%;
-	max-height:80%;
-	object-fit: cover;
-}
-img.trees{
-	border-radius: 50px; 
-}
-iframe.disc{
-	border: 20px solid #f7f6f2;
-	border-radius: 5%;
-	resize: both;
-    overflow: auto;
 }
 ul{
 	padding: 25px;
