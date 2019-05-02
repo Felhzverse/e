@@ -10,7 +10,8 @@ function redirect(){
 	   }
 	else{
 		window.location.replace(z);
-		"fail";
+		"return";
 
 	   }
+	"return";
 }
