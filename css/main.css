@@ -4,16 +4,13 @@ body{
 	text-align: center;
 	text-align: justify;
 	background-color: #CDD77A;
-	font-family:'Arial', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:normal;
 	font-style:normal;
 	font-size: 24px;
 }
-
-
-
 h1,h2,h3,h4,h5,h6{
-font-family: "Arial", sans-serif;
+font-family: 'Lato', sans-serif;
 text-decoration: underline;
 font-weight:normal;
 font-style:normal;
@@ -55,67 +52,73 @@ div {
 	background-color: #E76043;
 	padding: 10px;
 }
+div.container-fluid,.row,.col{
+	background-color: #CDD77A;
+}
 /* People borders*/ 
 div.Alice{
 	background-color: lightpink; 
 	color: #f7f6f2;
-	border: medium #f7f6f2;
 	border-radius: 2%;
 }
 div.Amir{
-	background-color:#78bc61;
+	background-color:#d7684c;
 	color: #f7f6f2;
-	border: medium #131200;
 	border-radius: 2%;
 }
 div.Gianna{
 	background-color: #4B0082;
 	color: #f7f6f2;
-	border: medium darkgreen;
 	border-radius: 2%;
 }
 div.Kienen{
 	background-color: #952143;
 	color: #f7f6f2;
-	border: medium #d25a7e;
 	border-radius: 2%;
 }
 div.Nick{
 	background-color: slategray;
 	color: white;
-	border: medium ghostwhite;
 	border-radius: 2%;
+	width:50%;
 }
 /* comic borders*/ 
 div.DGLITW{
 	background-color: #572966;
-	color: antiquewhite;
-	border-color:maroon;
+	color: #f7f6f2;
+	border-radius: 2%;
+	text-align: center;
 }
 div.MF{
 	background-color: #8fb8de ;
-	color: antiquewhite;
-	border-color:#9a94bc;	
+	color: #f7f6f2;
+	border-radius: 2%;
+	text-align: center;
 }
 div.LE{
 	background-color: #89c7d4 ;
-	color: antiquewhite;
-	border-color:#F7FF74;
+	color: #f7f6f2;
+	border-radius: 2%;
+	text-align: center;
 }
 div.DTIS{
-	background-color: #89c7d4 ;
-	color:antiquewhite ;
-	border-color:#ff557f;
+	background-color: #865491 ;
+	color:#f7f6f2;
+	border-radius: 2%;
+	text-align: center;
 }
-img.icon{
-	height:150;
-	width:150;
-	border: 5px solid #f7f6f2;
+img.logo{
+	height: 50px;
+	width: 50px;
 	border-radius: 5%;
 }
-img.ad{
-	height:640;
-	width:480;
+img.icon{
+	height:300px;
+	width:300px;
+	border-radius: 5%;
+}
+.nav>li {
+    display: inline-block;
 }
 ul{
 	padding: 25px;

@@ -14,87 +14,77 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./js/site/reTest.js"></script>
 </head>
-<body> 
-<nav id="top" class="navbar navbar-expand-lg navbar-light" style="background-color: #4C403D">
-  <div class="collapse navbar-collapse" id="navbarNavDropdown" style="background-color: #4C403D">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">hi</button>
-    <ul class="navbar-nav" >
-	  <li>
-	  	<a class="navbar-brand" href="./">
-    	<img src="./icons/icon.png" width="50" height="50" alt="icon">
- 		 </a>
-	  </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./about.html" style="color:#f7f6f2;">About/FAQ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./staff.html" style="color:#f7f6f2;">Ztaff</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="./world/" id="worldDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#f7f6f2;">
-          World
-        </a>
-      </li>
-	  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="./articles/" id="articlesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#f7f6f2;">
-          Articles
-        </a>
-      </li>
-	  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="./extra/" id="extrasDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#f7f6f2;">
-          Extras
-        </a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<br>
+<body onload="redirect();"> 
+<center><img class="img-fluid" alt="header" src="./images/logo/logoTree.png"></center>
+<ul class="nav" style="background-color: #4C403D">
+  <li>
+	<a class="navbar-brand" href="./">
+     &nbsp;&nbsp;<img src="./icons/icon.png" class="logo" alt="icon">
+ 	</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./">Felhzverse</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About/FAQ</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./ztaff.html">Ztaff</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./world/">World</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./articles/">Articles</a>
+  </li>
+</ul>
 <main>
 <div> 
-<div> 
-Here’s all the official Felhzverse series! Although we have them listed in chronological order (from the 1950’s to 2010’s) they’re not all mandatory reading to know what’s going on in the universe. Read whatever you want at whatever pace you’d like.
- 
-</div>
-<br>
+<div class="container-fluid">
+<div class="row">
+<div class="col">
 <div  class="DGLITW" id="dglitw">
-<a href="dglitw/index.html"><font size="7"> Don't Get Lost in the Woods </font></a>
+<a href="./dglitw/"><font size="7"> Don't Get Lost in the Woods </font></a>
 <br>
-<img src="icons/dglitwIcon.png" alt="DGLITW pfp.png"> Don't Get Lost in the Woods is a story that follows main characters Silkvre and Different, as they attempt to break a cycle of silence in their species, a tradition held generation to generation for as long as they can remember. They are willing to leave everything behind and even do unthinkable things to get their names heard.
+<center><img src="./icons/series/dglitwIcon.png" class="icon" alt="dglitw"> </center>Don't Get Lost in the Woods is a story that follows main characters Silkvre and Different, as they attempt to break a cycle of silence in their species, a tradition held generation to generation for as long as they can remember. They are willing to leave everything behind and even do unthinkable things to get their names heard.
 <br>
 Written by <a href="./Creator-Info.html#gianna"> Gianna </a></div>
-
-<br>
-	
+</div>
+<div class="col">
 <div class="MF" id="mf">
 <a href="mf/index.html"> <font size="7"> [Mis]Fortune </font></a>
 <br>
-<img src="icons/mfIcon.png" alt="MF pfp.png">
+<center><img src="./icons/series/mfIcon.png" class="icon" alt="MF.png"></center>
 <br>
 An unusual band of people trying to get through life. Helping each other along the way and trying to figure out how to live life under their unusual circumstances.
 <br>
 Written by <a href="series.html#kienen">Kienen</a></div>
-	
-<br> 
-	
+</div>
+</div>
+<div class="row">
+<div class="col">
 <div class="LE" id="le">
 <a href="le/index.html"> <font size="7"> Life's Expectations </font></a>
 <br>
-<img src="icons/leIcon.png" >
+<center><img src="./icons/series/leIcon.png" class="icon" id="LE"></center>
 <br>Life’s Expectations is a coming of age story. Follow Bubs as she learns about herself and makes friends over the years! In a world full of magic and endless possibilities, what’s the worst that can happen?
 <br>
-Written by <a href="./Creator-Info.html#alice">Alice</a></div>	
-<br> 	
+Written by <a href="./Creator-Info.html#alice">Alice</a></div>
+</div>
+<div class="col">
 <div class="DTIS" id="dtis">
 <a href="dtis/index.html"> <font size="7"> Don't Take it Seriously </font></a>
 <br>
-<img src="icons/dtisIcon.png" width="300" height="300" alt="dtis pfp.png">
+<center><img src="./icons/series/dtisIcon.png" class="icon" alt="dtis"></center>
 <br>
 Bluzie has always been decent when it comes to academics and socializing, but suddenly, eighth grade arrives. Instead of learning to adapt to her new responsibilities and develop as a person, she decides to instead refuse to grow up altogether. Let's see how that goes. 
 <br>
 Written by <a href="series.html#amir">Amir</a></div>
-<br>
-	
+</div>
+</div>
+</div>
 </div>
 </main>
 <footer>
