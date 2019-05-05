@@ -30,7 +30,9 @@ ul{
 	font-size: 6;
 	
 }
-
+ul.nav{
+	background-color: #4C403D;
+}
 footer{
 	display: block;
 	background-color: #4C403D;
@@ -53,7 +55,7 @@ div {
 	padding: 10px;
 }
 div.container-fluid,.row,.col{
-	background-color: #CDD77A;
+	background: transparent;
 }
 /* People borders*/ 
 div.Alice{
