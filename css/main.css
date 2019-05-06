@@ -22,14 +22,8 @@ a{
 	text-align: center;
 	text-align: justify;
 }
-a:visited {
-    color: #f7f6f2;
-	text-align: center;
-	text-align: justify;
-}
 ul{
 	font-size: 6;
-	
 }
 ul.nav{
 	background-color: #4C403D;
