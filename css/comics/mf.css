@@ -30,13 +30,8 @@ div {
 div.container-fluid,.row,.col{
 	background: transparent;
 }
-div.character{
-	background-color:#E9FFD1;
-	color: #f0f6e8;
-}
 button{
 	/*background-color: #f0f6e8;
-    border: 5px solid #241A30 ;
     color: whitesmoke;
     padding: 15px 32px;
     text-align: center;
@@ -45,8 +40,8 @@ button{
     /*font-size: 16px;*/
 }
 button.archive{
-	background-color: #f0f6e8;
-    border: 5px solid #241A30 ;
+	background-color: #a74870;
+	border-radius: 5%;
     color: whitesmoke;
     padding: 15px 32px;
     text-align: center;
@@ -58,7 +53,9 @@ img.page{
 	width:50%;
 }
 img.charIcon{
-	border: 10px solid #8fb8de;
+	width: 300px;
+	height: 300px;
+	border-radius: 5%;
 }
 img.logo{
 	height:300px;
