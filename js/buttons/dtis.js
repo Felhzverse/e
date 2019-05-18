@@ -76,20 +76,7 @@ document.location=pageNumber[thisPage];
 function latest(){
 "use strict"; 
 	   	   document.location=pageNumber[i]; 
-}
-
-//PAGE SHIT
-function altText() {
-	"use strict";
-    var desc = document.getElementById("page").alt;
-    window.alert(desc); 
-}
-
-document.getElementById("page").onclick = function() {
-"use strict"; 
-	altText();};
-
-//EXECUTE
+}//EXECUTE
 document.getElementById("first").onclick = function() {
 "use strict"; 
 	first();};
