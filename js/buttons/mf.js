@@ -89,8 +89,8 @@ document.getElementById("latest").onclick = function() {
 //ARCHIVE
 function archiveOne(){
 "use strict";
-	window.alert("./"+"zf"+pageNumber[1]);
-	   	   document.location="./"+"zf"+pageNumber[1]; 
+	window.alert("./"+"mf"+pageNumber[1]);
+	   	   document.location="./"+"mf"+pageNumber[1]; 
 }
 
 
