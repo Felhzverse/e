@@ -20,11 +20,7 @@ table.bi{
 	border: 5px solid #CDD77A;
 	width: 60%;
 }
-div#backdrop{
-	background-color: #E76043;
-	padding: 10px;
-	border-radius: 5%;
-}
+
 .bi {
   border-collapse: collapse;
   width: 100%;

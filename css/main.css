@@ -53,6 +53,11 @@ div {
 div.container-fluid,.row,.col{
 	background: transparent;
 }
+div#backdrop{
+	background-color: #E76043;
+	padding: 10px;
+	border-radius: 5%;
+}
 /* People borders*/ 
 div.Alice{
 	background-color: #ecc8d6; 
@@ -114,6 +119,10 @@ img.icon{
 	height:300px;
 	width:300px;
 	border-radius: 5%;
+}
+img.lButton{
+	height:150px;
+	width:150px;
 }
 .nav>li {
     display: inline-block;
