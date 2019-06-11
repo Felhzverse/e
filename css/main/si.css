@@ -28,6 +28,7 @@ div#backdrop{
 .bi {
   border-collapse: collapse;
   width: 100%;
+  border: 5px solid #4C403D;
 }
 
 .bi td, .bi th {
@@ -45,11 +46,14 @@ div#backdrop{
 
 .bi th:hover {
 background-color: #f7f6f2; 
-color: #4C403D;}
+color: #4C403D;
+}
 
 .bi td{
 background-color: #CDD77A; 
-color: #4C403D;}
+color: #4C403D;
+
+}
 .bi td{
   display: none;
 }
