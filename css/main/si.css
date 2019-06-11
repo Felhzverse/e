@@ -1,24 +1,29 @@
 button{
 background-color:#E76043 ;
 text-align: center;
-border: 5px antiquewhite;
-color: antiquewhite;
+border: 5px #f7f6f2;
+color: #f7f6f2;
 border-radius:10%;
 }
 img.info{
 	width: 80%;
-	border: thin solid antiquewhite; 
+	border: thin solid #f7f6f2; 
 }
 img.sicon{
 	height:150px;
 	width:150px;
-	border: 5px solid #ffe6c9;
+	border: 5px solid #f7f6f2;
 	border-radius: 5%;
 }
 /* basic info*/
 table.bi{
-	border: 5px solid #CBD76B;
+	border: 5px solid #CDD77A;
 	width: 60%;
+}
+div#backdrop{
+	background-color: #E76043;
+	padding: 10px;
+	border-radius: 5%;
 }
 .bi {
   border-collapse: collapse;
@@ -34,23 +39,23 @@ table.bi{
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #6A552A;
-  color: #ffe6c9;
+  background-color: #4C403D;
+  color: #f7f6f2;
 }
 
 .bi th:hover {
-background-color: #ffe6c9; 
-color: #6A552A;}
+background-color: #f7f6f2; 
+color: #4C403D;}
 
 .bi td{
-background-color: #CBD76B; 
-color: #6A552A;}
+background-color: #CDD77A; 
+color: #4C403D;}
 .bi td{
   display: none;
 }
 /* compatibility*/
 table.compat{
-	border: 5px solid #CBD76B;
+	border: 5px solid #4C403D;
 	width: 25%;
 }
 .compat {
@@ -63,12 +68,14 @@ table.compat{
   padding: 8px;
 }
 .compat th {
-  padding-top: 12px;
-  padding-bottom: 12px;
   text-align: center;
-  background-color: #6A552A;
-  color: #ffe6c9;
+  text-align: justify;
+  background-color: #4C403D;
+  color: #f7f6f2;
 }
 .compat td{
-background-color: #CBD76B; 
-color: #6A552A;}
+	text-align: center;
+	text-align: justify;
+	border: 5px solid #4C403D;
+background-color: #CDD77A; 
+color: #4C403D;}
