@@ -55,7 +55,7 @@ div.container-fluid,.row,.col{
 }
 /* People borders*/ 
 div.Alice{
-	background-color: lightpink; 
+	background-color: #ecc8d6; 
 	color: #f7f6f2;
 	border-radius: 2%;
 }
@@ -65,42 +65,42 @@ div.Amir{
 	border-radius: 2%;
 }
 div.Gianna{
-	background-color: #4B0082;
-	color: #f7f6f2;
+	background-color: #f8fcd6;
+	color: #4C403D;
 	border-radius: 2%;
 }
 div.Kienen{
-	background-color: #952143;
+	background-color: #9A3F64;
 	color: #f7f6f2;
 	border-radius: 2%;
 }
 div.Nick{
-	background-color: slategray;
-	color: white;
+	background-color: #cbb2d1;
+	color: #f7f6f2;
 	border-radius: 2%;
 	width:50%;
 }
 /* comic borders*/ 
 div.DGLITW{
-	background-color: #572966;
+	background-color: #511a5d;
 	color: #f7f6f2;
 	border-radius: 2%;
 	text-align: center;
 }
 div.MF{
-	background-color: #8fb8de ;
+	background-color: #A37CAC ;
 	color: #f7f6f2;
 	border-radius: 2%;
 	text-align: center;
 }
 div.LE{
-	background-color: #89c7d4 ;
+	background-color: #dd9eb7 ;
 	color: #f7f6f2;
 	border-radius: 2%;
 	text-align: center;
 }
 div.DTIS{
-	background-color: #865491 ;
+	background-color: #78a442 ;
 	color:#f7f6f2;
 	border-radius: 2%;
 	text-align: center;
