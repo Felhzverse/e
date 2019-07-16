@@ -11,6 +11,9 @@ img.info{
 	height: 100%;
 	
 }
+#lButton{
+	display: none;
+}
 img.sicon{
 	height:150px;
 	width:150px;
