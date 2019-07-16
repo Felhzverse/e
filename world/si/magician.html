@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>  <link rel="shortcut icon" type="image/x-icon" href="../../ico/felhzverse.ico" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="SPECIES DESCRIPTION">
@@ -11,8 +12,6 @@
 <link rel="stylesheet" type="text/css" href="../../css/main.css" >
 <link rel="stylesheet" type="text/css" href="../../css/main/si.css" >
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<meta charset="utf-8">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -28,7 +27,8 @@
 </script>
 </head>
 <body> 
-<center><img class="img-fluid" alt="header" src="../../images/logo/logoFit.png"></center>
+<div class="container-fluid" style="width: 100%">
+<img class="img-fluid" alt="header" src="../../images/logo/logoFit.png" style="width: 100%; float: left">
 <ul class="nav" id="top">
   <li>
 	<a class="navbar-brand" href="../../">
@@ -52,67 +52,97 @@
   </li>
 </ul>
 <main>
-<section>
-<center><h1>Magician</h1></center>
-<br>
-<center><img class="species" id="base" alt="Magician" src="../img/si/m/base.png"></center>
-<br>
 <center>
-<table class="compat">
-<tr><th>Eyote Name (Romanized)</th></tr>	
-<tr><td>Machishau</td></tr>	
-</table>	
-</center>
-<br>
-<center>
-<table  class="bi">
-<tr><th id="qB1" onClick="qB(1)"><center><font size="5">Scientific Name</font></center></th></tr>
-<tr><td id="aB1" class="faq"><center><font size="5">Homo magicus</font></center></td></tr>
-<tr><th id="qB2" onClick="qB(2)"><center><font size="5">Native Planet</font></center></th></tr>
-<tr><td id="aB2" class="faq"><center><font size="5">Earth</font></center></td></tr>
-<tr><th id="qB3" onClick="qB(3)"><center><font size="5">Average Size (Male;Female)</font></center></th></tr>
-<tr><td id="aB3" class="faq"><center><font size="5">69 inches (175.26 cm); 64 inches (162.56 cm)</font></center></td></tr>
-<tr><th id="qB4" onClick="qB(4)"><center><font size="5">Average Lifespan</font></center></th></tr>
-<tr><td id="aB4" class="faq"><center><font size="5">79 Earth years</font></center></td></tr>
-<tr><th id="qB5" onClick="qB(5)"><center><font size="5">Diet Type</font></center></th></tr>
-<tr><td id="aB5" class="faq"><center><font size="5">Omnivorous</font></center></td></tr>
+<div id="backdrop" style="object-fit: contain;">
+<div class="row justify-content-center">
+<div class="row">
+<center><h1>Magicians</h1></center>
+<!--center><br><img class="info" id="base" alt="species" src="../img/si/m/base.png"></center-->	
+<br><br>
+</div>	
+<div class="row">
+<div class="col">
+<table class="bi">
+<tr><th id="qB1" onClick="qB(1)">Scientific Name</th></tr>
+<tr><td id="aB1" class="faq">Homo magicus</td></tr>
+<tr><th id="qB2" onClick="qB(2)">Native Planet</th></tr>
+<tr><td id="aB2" class="faq">Earth</td></tr>
+<tr><th id="qB3" onClick="qB(3)">Average Size (Male;Female)</th></tr>
+<tr><td id="aB3" class="faq">69 inches (175.26 cm); 64 inches (162.56 cm)</td></tr>
+<tr><th id="qB4" onClick="qB(4)">Average Lifespan</th></tr>
+<tr><td id="aB4" class="faq">79 Earth years</td></tr>
+<tr><th id="qB5" onClick="qB(5)">Diet Type</th></tr>
+<tr><td id="aB5" class="faq">Omnivorous</td></tr>
 </table>
+</div>
+<div class="col">
+<p id="gen">&nbsp;Magicians look and behave just like humans, with the most noticeable difference being that magicians have unnatural eye color. Magicians possess magical abilities.</p>
+</div>	
+</div>
+<div class="row justify-content-center">
+<center><h1>Habitat</h1></center>
+<p id="habitat" >&nbsp; They live all over the Earth. No one knows their origins, but historical records show proof of magicians being on all continents.
+</p>	
+</div>
+<div class="row justify-content-center">
+<center><h1>Common Behaviors</h1></center>
+<p>&nbsp;</p>	
+</div>
+<div class="row justify-content-center">
+<center><h1>Family Structure</h1></center>
+<p>&nbsp;  </p>	
+</div>
+<div class="row justify-content-center">
+<p>Life Stages:</p>
+<ul>
+  <li>
+    <p>Infant:</p>
+  </li>
+  <li>
+    <p>Toddler: </p>
+  </li>
+  <li>
+    <p>Child: </p>
+  </li>
+  <li>
+    <p>Puberty: </p>
+  </li>
+  <li>
+    <p>Adolescent: </p>
+  </li>
+  <li>
+    <p>Young adult: </p>
+  </li>
+  <li>
+    <p>Middle aged: </p>
+  </li>
+  <li>
+    <p>Senior: </p>
+  </li>
+</ul>
+</div>
+<div class="row justify-content-center">
+<center><h1>Language</h1></center>
+<p>&nbsp;</p>	
+</div>
+<div class="row justify-content-center">
+<center><h1>Diet</h1></center>
+<p>&nbsp; They can eat anything a human can eat, unless they have a spell on them that makes them immune to certain poisons.
+</p>	
+</div>
+<div class="row justify-content-center">
+<center><h1>Way of Dress</h1></center>
+<p>&nbsp; </p>	
+</div>
+<div class="row justify-content-center">
+<center><h1>Religion</h1></center>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
 </center>
-<br>
-<center>
-<p id="gen">Magicians look just like humans except their eyes are unnaturally bright in color. Magicians can use magic (if you couldn’t tell).</p></center>
-<br>
-<center><img id="diffType" alt="Types" src="../img/si/m/type.png"></center>
-<br>
-<center><img id="habitat" alt="Habitat" src="../img/si/m/habitat.png"></center>
-<br>
-<center><img id="cb" alt="Common Behaviors" src="../img/si/m/cb.png"></center>
-<br>
-<center><img id="fam" alt="Life Cycle + Family" src="../img/si/m/fam.png"></center>
-<br>
-<center><img id="lang" alt="Language" src="../img/si/m/lang.png"></center>
-<br>
-<center><img id="diet" alt="Diet" src="../img/si/m/diet.png"></center>
-<br>
-<center><img id="dress" alt="Way of Dress" src="../img/si/m/dress.png"></center>
-<br>
-<center><img id="spirit" alt="Religious/Spiritual Beliefs" src="../img/si/m/religion.png"></center>
-<br>
-<!--center><img id="BONUS"></center>
-<br-->
-<center>
-<h1>Compatibility</h1>
-<table id="compatTEMP" class="compat">
-<tr><th>Eyote</th><th>Feratrans</th><th>Humans</th><th>Lilibethians</th><th>Magicians</th><th>Zelski</th></tr>	
-<tr><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>	
-</table>	
-</center>
-<br>
-<!--center><font size="6"><u><b>Characters of this Species</b></u></font></center-->
-<center></center>
-<br>
-</section>
 </main>
+</div>
 <footer>
 &nbsp;Felhzverse™ is run by a group of friends who love to create stories. We only take credit for creating the universe, and helping it grow. If you have any questions, comments, or concerns, please contact us on our email or discord! We will try to respond as soon as possible.
 <br>
