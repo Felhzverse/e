@@ -50,7 +50,7 @@ div {
 	background-color: #E76043;
 	padding: 10px;
 }
-div.container-fluid,.row,.col{
+div.container-fluid,.row,.col,#invisible{
 	background: transparent;
 }
 div#backdrop{
