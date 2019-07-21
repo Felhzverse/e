@@ -4,6 +4,10 @@ img.cicon{
 	border: 5px solid #f7f6f2;
 	border-radius: 5%;
 }
+img.fullbody{
+	height: 750px;
+	width: 337px;
+}
 #sInput{
   background-position: 10px 12px;
   background-repeat: no-repeat;
