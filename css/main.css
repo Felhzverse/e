@@ -18,6 +18,12 @@ font-weight:normal;
 font-style:normal;
 font-size: 28px;
 }
+h1{
+	font-size: 48px;
+}
+h2{
+	font-size: 36px;
+}
 a{
     color: #f7f6f2;
 	text-align: center;
@@ -172,9 +178,31 @@ color: #4C403D;}
 .faq td{
   display: none;
 }
-h1{
-	font-size: 48px;
+/* TOOLTIP*/
+.relatContainer {
+  position: relative;
+  display: inline-block;
 }
-h2{
-	font-size: 36px;
+
+.tooltiptext {
+  visibility: hidden;
+  height: inherit;
+  background-color: #4C403D;
+  color: #f7f6f2;
+  text-align: center;
+  text-size: 4; 
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 100%;
+  left: 20%;
+  width: auto;
+  word-wrap: normal;
+  
 }
+
+
+.relatContainer:hover .tooltiptext {
+  visibility: visible;
+}
+/*END*/

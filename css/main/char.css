@@ -8,6 +8,12 @@ img.fullbody{
 	height: 750px;
 	width: 337px;
 }
+img.relationship{
+	height:200px;
+	width:200px;
+	border: 5px solid #f7f6f2;
+	border-radius: 5%;
+}
 #sInput{
   background-position: 10px 12px;
   background-repeat: no-repeat;
