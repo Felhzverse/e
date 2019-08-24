@@ -56,6 +56,10 @@ div {
 	background-color: #E76043;
 	padding: 10px;
 }
+div.bendy{
+	padding: 2%;
+	border-radius: 2%;
+}
 div.container-fluid,.row,.col,#invisible{
 	background: transparent;
 }
