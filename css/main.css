@@ -55,7 +55,7 @@ section{
 }
 div {
 	background-color: #E76043;
-	padding: 10px;
+	padding: 2%;
 }
 div.bendy{
 	padding: 2%;
@@ -145,11 +145,16 @@ button{
 background-color:#E76043;
 text-align: center;
 border: 5px #f7f6f2;
-color: antiquewhite;
+color: #f7f6f2;
 border-radius:10%;
 }
 button.fof{
 padding: 15px;
+}
+button.betaButton{
+padding: 15px;
+background-color: #4c403d;
+color: #f7f6f2
 }
 /*I'm a sad bitch*/
 table.faq{
