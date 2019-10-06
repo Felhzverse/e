@@ -56,13 +56,16 @@ section{
 div {
 	background-color: #E76043;
 	padding: 2%;
+	width: 100%;
 }
 div.bendy{
 	padding: 2%;
 	border-radius: 2%;
+	width: 100%;
 }
 div.container-fluid,.row,.col,#invisible{
 	background: transparent;
+	width: 100%;
 }
 div#backdrop{
 	background-color: #E76043;
