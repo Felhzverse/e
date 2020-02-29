@@ -28,7 +28,7 @@ document.getElementById("latest").disabled = false;
 //first
 function homeFirst(){
 "use strict"; 
-	   	   document.location="./"+pageNumber[0]; 
+	   	   document.location="."+pageNumber[0]; 
 }
 //latest
 function homeLatest(){
