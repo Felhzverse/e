@@ -73,27 +73,27 @@ div#backdrop{
 	border-radius: 3%;
 }
 /* People borders*/ 
-div.Alice{
+div.Ducky{
 	background-color: #7F568E; 
 	color: #f7f6f2;
 	border-radius: 2%;
 }
-div.Amina{
+div.Defsiarte{
 	background-color:#d7684c;
 	color: #f7f6f2;
 	border-radius: 2%;
 }
-div.Dylan{
+div.Aqua{
 	background-color: #A37CAC;
 	color: #f7f6f2;
 	border-radius: 2%;
 }
-div.Kienen{
+div.Filibarde{
 	background-color: #9A3F64;
 	color: #f7f6f2;
 	border-radius: 2%;
 }
-div.Nick{
+div.Peppy{
 	background-color: #cbb2d1;
 	color: #f7f6f2;
 	border-radius: 2%;
@@ -104,12 +104,6 @@ div.Sharon{
 	border-radius: 2%;
 }
 /* comic borders*/ 
-div.DGLITW{
-	background-color: #511a5d;
-	color: #f7f6f2;
-	border-radius: 2%;
-	text-align: center;
-}
 div.MF{
 	background-color: #A37CAC ;
 	color: #f7f6f2;
