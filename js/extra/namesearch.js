@@ -15,3 +15,18 @@ function searchName() {
         }
     }
 }
+var nameValue="";
+function userResponse(){
+  var text="[input]";
+  nameValue = document.getElementById("myUniqueId").value;
+  document.getElementById("beans").innerHTML= nameValue;
+}
+function showBeans(){
+  document.getElementById("beans").innerHTML= nameValue;
+}
+/*
+        <center>
+            <input class="search" type="text" id="myUniqueId" value="value">
+        <br><input type="submit" onclick="userResponse()" value="Submit"></center>
+        <p id="beans">Hello!</p>
+        */
